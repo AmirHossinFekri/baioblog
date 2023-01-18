@@ -1,0 +1,25 @@
+<%- include("./layouts/mainHeader.ejs") %> 
+<div class="d-flex justify-content-center align-items-center h-100 loging-backGround">
+    <div class="shadow rounded-5 bg-light p-5">
+        <h3 class="text-center  " ><i class="fa-solid fa-arrow-right-to-bracket me-2"></i>ورود به پنل کاربری</h3>      
+        <form action="/user/login" method="post">
+            <div class="p-3">
+                <label for="Username" >نام کاربری </label>
+                <input type="text" id="UserName" name="username" class="form-control">
+            </div>
+    
+            <div class="p-3">
+                <label for="passwordForm" >رمز عبور</label>
+                <input type="password"  name="password" id="passwordForm" class="form-control">
+            </div>
+            <div class="d-flex justify-content-center mb-2">
+                <a href="/user/register">من اکانتی ندارم</a>
+            </div>
+            <div class="justify-content-center d-flex">
+                <button type="submit" class="btn btn-dark">ثبت نام</button>
+            </div>
+        </form>
+    </div>
+</div>
+<%- include("./layouts/mainFooter.ejs") %> 
+ 

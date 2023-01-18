@@ -1,0 +1,29 @@
+{
+  "name": "baioblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "bootstrap": "^5.2.3",
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jquery": "^3.6.3",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

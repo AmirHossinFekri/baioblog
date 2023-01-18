@@ -1,0 +1,26 @@
+
+/* public styles >> */
+html, body {
+    min-height: 100vh;
+    height: 100vh;
+}
+/* public styles << */
+
+/* loging and register styles >> */
+.loging-backGround , .register-background{
+    background-color: rgb(255, 249, 220);
+}
+/* loging and register styles << */
+
+
+/* admin dashboard Panel >>  */
+.btn-hover-m
+{
+    transition-duration: 300ms
+}
+.btn-hover-m:hover{
+    
+    background-color: rgb(180, 226, 197);
+    border-radius: 25px 0 0 25px;
+}
+/* admin dashboard panel >>  */

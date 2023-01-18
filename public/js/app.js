@@ -1,0 +1,3 @@
+$("#togglerBtn").click(()=>{
+$("#sidetoggle");
+});
